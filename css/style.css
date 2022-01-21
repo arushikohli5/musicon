@@ -1,0 +1,44 @@
+.navbar{
+    padding: 22px 0px 22px 0px;
+    min-height: 120px;
+    background-color: blue;
+    transition: all 0.9s ease-in-out;
+}
+
+.navbar ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight:600;
+    letter-spacing: 1px;
+    font-size: 14px;
+    transition:all 0.5s ease-in;
+}
+
+.navbar ul li a:hover{
+    color: deepskyblue;
+}
+
+.navbar-toggler{
+    border:1px solid white !important;
+    transition:all 0.5s ease-in;
+}
+
+.navbar-toggler:hover{
+    background-color: deepskyblue;
+}
+
+.secondary{
+    background-color: #34495e;
+}
+
+.bg-dark{
+    background-color: red;
+}
+
+#location{
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    color: black;
+}
