@@ -8,11 +8,11 @@ $(document).ready(function(){
 $(window).scroll(function(){
     "use strict"
     var top=$(window).scrollTop();
-    if(top>=1000){
-        $("nav").addClass("secondary");
+    if(top>=80){
+        $(".nava").addClass("secondary");
     }
     else
-        if($("nav").hasClass("secondary")){
-            $("nav").removeClass("secondary");
+        if($(".nava").hasClass("secondary")){
+            $(".nava").removeClass("secondary");
         }
 });
