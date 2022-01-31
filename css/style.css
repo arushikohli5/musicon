@@ -5,6 +5,7 @@
 
 body{
     height:200000px;
+    overflow-x: hidden;
 }
 /*================================
            navbar styles
@@ -199,11 +200,30 @@ body{
     display: flex;
     list-style-type: none;
 }
+
+.item-a .box{
+    background-color: rgba(219, 132, 29, 0.1);
+}
+
+.item-b .box{
+    background-color: rgba(252, 82, 82, 0.1);
+}
+
+.item-c .box{
+    background-color: rgba(192, 0, 150, 0.1);
+}
+.item-d .box{
+    background-color: rgba(192, 0, 150, 0.1);
+}
+
+.item-e .box{
+    background-color: rgba(132, 196, 255, 0.1);
+}
 .box{
     width: 220px;
     height: 220px;
     top: 50%;
-    background-color: rgba(192, 0, 150, 0.1);
+   
     border-radius: 24px;
     box-shadow: 2px 10px 12px rgba(0, 0, 0, 0.5);
     display: flex;
@@ -249,10 +269,12 @@ body{
 
 .box:hover{
     cursor: pointer;
-    background-color: blue;
-    color: white;
 }
 
+.secon{
+    background-color: blue !important;
+    color: white;
+}
 
 
 

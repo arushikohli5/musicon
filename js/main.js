@@ -13,7 +13,7 @@ $(document).ready(function(){
         }
       }));
     $('.slick-slider').slick({
-        dots: true,
+        dots: false,
         infinite: false,
         speed: 150,
         slidesToShow: 5,
@@ -29,7 +29,7 @@ $(document).ready(function(){
             }
           },
           {
-            breakpoint: 600,
+            breakpoint: 750,
             settings: {
               slidesToShow: 2,
               slidesToScroll: 2
@@ -48,9 +48,47 @@ $(document).ready(function(){
         ]
       });
 
+
+      //applying blue colour to selected category
+      $('.item-a').click(function(){
+          $('.item-a .box').addClass("secon");
+          $('.item-b .box').removeClass("secon");
+          $('.item-c .box').removeClass("secon");
+          $('.item-d .box').removeClass("secon");
+          $('.item-e .box').removeClass("secon");
+      });
+
+      $('.item-b').click(function(){
+        $('.item-b .box').addClass("secon");
+        $('.item-a .box').removeClass("secon");
+        $('.item-c .box').removeClass("secon");
+        $('.item-d .box').removeClass("secon");
+        $('.item-e .box').removeClass("secon");
+    });
+    
+    $('.item-c').click(function(){
+        $('.item-c .box').addClass("secon");
+        $('.item-a .box').removeClass("secon");
+        $('.item-b .box').removeClass("secon");
+        $('.item-d .box').removeClass("secon");
+        $('.item-e .box').removeClass("secon");
+    });
       
-      
-      
+    $('.item-d').click(function(){
+        $('.item-d .box').addClass("secon");
+        $('.item-a .box').removeClass("secon");
+        $('.item-c .box').removeClass("secon");
+        $('.item-b .box').removeClass("secon");
+        $('.item-e .box').removeClass("secon");
+    });
+
+    $('.item-e').click(function(){
+        $('.item-e .box').addClass("secon");
+        $('.item-a .box').removeClass("secon");
+        $('.item-c .box').removeClass("secon");
+        $('.item-d .box').removeClass("secon");
+        $('.item-b .box').removeClass("secon");
+    });
 });
     "use strict"
 
