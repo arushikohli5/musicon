@@ -284,6 +284,10 @@ body{
 .about-us{
     margin-top: 100px;
 }
+
+.about-us .row{
+    vertical-align: text-bottom;
+}
 .about-us-image img{
     height: auto;
     max-width: 70%;
@@ -307,6 +311,7 @@ div .about-us-text{
     font-size: 25px;
     color: black;
     font-weight: 800;
+    padding-bottom: 15px;
 }
 
 .about-us .btn{
