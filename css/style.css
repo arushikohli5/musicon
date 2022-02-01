@@ -5,6 +5,10 @@
 
 body{
     height:200000px;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
     overflow-x: hidden;
 }
 /*================================
@@ -188,6 +192,7 @@ body{
     flex-direction: row;
     align-items: center;
     margin-left: 0px;
+    
 }
 
 .categories .container{
@@ -263,9 +268,6 @@ body{
     color: black;
 }
 
-.categories-text span{
-    color: #381DDB;
-}
 
 .box:hover{
     cursor: pointer;
@@ -277,6 +279,21 @@ body{
 }
 
 
+
+/*===================
+         common
+ ===================*/
+.section-heading{
+    font-family: 'Montserrat Bold', arial;
+    font-size: 27px;
+    color: black;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.blue{
+    color: #381DDB;
+}
 
 /*======================
     about us styles
@@ -290,13 +307,10 @@ body{
 }
 .about-us-image img{
     height: auto;
-    max-width: 70%;
+    max-width: 65%;
     float: right;
 }
 
-.blue{
-    color: #381DDB;
-}
 
 div .about-us-text{
     margin-top: 30px;
@@ -306,13 +320,7 @@ div .about-us-text{
     color: black;
     font-weight: 500;
 }
-.about-us-heading{
-    font-family: 'Montserrat Bold', arial;
-    font-size: 25px;
-    color: black;
-    font-weight: 800;
-    padding-bottom: 15px;
-}
+
 
 .about-us .btn{
     margin-top: 30px;
@@ -323,6 +331,40 @@ div .about-us-text{
 }
 
 .about-us .btn:hover{
+    color: white;
+    background-color: black;
+}
+
+
+/*======================
+    organisers styles
+========================*/
+.organisers{
+    margin-top: 100px;
+}
+
+.organisers-text{
+    margin-top: 75px;
+    font-family: Montserrat;
+    float: right;
+    margin-left: 95px;
+}
+
+.organisers-image img{
+    height: auto;
+    max-width: 95%;
+}
+
+
+.organisers-button .btn{
+    margin-top: 30px;
+    background-color: rgba(56, 29, 219, 1);
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+}
+
+.organisers-button .btn:hover{
     color: white;
     background-color: black;
 }

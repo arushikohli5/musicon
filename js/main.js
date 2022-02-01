@@ -13,7 +13,7 @@ $(document).ready(function(){
         }
       }));
     $('.slick-slider').slick({
-        dots: false,
+        dots: true,
         infinite: false,
         speed: 150,
         slidesToShow: 5,
