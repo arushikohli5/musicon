@@ -4,11 +4,6 @@
 }
 
 body{
-    height:200000px;
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
     overflow-x: hidden;
 }
 /*================================
@@ -200,6 +195,27 @@ body{
     display: block;
 }
 
+.categories .confetti1{
+    z-index: 10;
+    position: relative;
+}
+
+.categories .confetti1 img{
+    height: auto!important;
+    max-width: 30%!important;
+    margin-left: 30px;
+    margin-top: 2%;
+    position: relative;
+    margin-bottom: -45px;
+}
+
+.categories .confetti2 img{
+    height: auto!important;
+    max-width: 30%!important;
+    margin-left: 20%;
+    margin-top: -2%;
+    position: relative;
+}
 .categories ul.slick-slider{
     display: inline;
     display: flex;
@@ -266,6 +282,7 @@ body{
     font-weight: bolder;
     font-size: 30px;
     color: black;
+    text-align: center;
 }
 
 
@@ -311,7 +328,6 @@ body{
     float: right;
 }
 
-
 div .about-us-text{
     margin-top: 30px;
     vertical-align: middle;
@@ -336,11 +352,18 @@ div .about-us-text{
 }
 
 
+.confetti3{
+    margin-left: 10%;
+    margin-top: -20px;
+}
+
+
+
 /*======================
     organisers styles
 ========================*/
 .organisers{
-    margin-top: 100px;
+    margin-top: 10px;
 }
 
 .organisers-text{
@@ -367,4 +390,78 @@ div .about-us-text{
 .organisers-button .btn:hover{
     color: white;
     background-color: black;
+}
+
+.confetti4 img{
+    float: right;
+    margin-top: -50px;
+    margin-left: -2px;
+}
+
+
+/*===================
+       sponsers
+====================*/
+.sponsers{
+    margin-top: 50px;
+}
+.sponsers .section-heading{
+    text-align: center;
+}
+
+
+/*================
+    contact us
+================*/
+.cont1{
+    background-color: #381DDB;
+    color: white;
+    font-family: Montserrat;
+}
+
+.text-heading{
+    font-size: 25px;
+    font-weight: 900;
+    padding-top: 100px;
+    padding-bottom: 15px;
+    padding-left: 75px;
+}
+.line{
+    padding-bottom: 40px;
+    padding-left: 75px;
+}
+
+.contact-details{
+    padding-left: 75px;
+}
+.fa-phone, .fa-envelope{
+    padding-bottom: 30px;
+}
+
+.contact-us-image{
+    float: right;
+    margin-bottom: 0px;
+    margin-right: -15px;
+}
+
+.cont2{
+    background-color: #E5E5E5;
+    padding: 7%;
+    color: black;
+}
+.cont2-heading p{
+    font-family: 'Montserrat Bold', arial;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.cont2 label{
+    color: #222222;
+}
+.cont2 input{
+    background-color: #E5E5E5;
+    border: 0;
+    outline: 0;
+    border: none;
+    border-bottom: 2px solid rgba(224, 224, 224, 1);
 }
