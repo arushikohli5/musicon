@@ -453,9 +453,13 @@ div .about-us-text{
     font-size: 22px;
     color: #000000;
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 3%;
 }
 
+.form{
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
 .form input{
     position: absolute;
     padding: 1%;
@@ -464,18 +468,26 @@ div .about-us-text{
     border-top: 2px solid #E5E5E5 !important;
 }
 
+textarea{
+    position: absolute;
+    padding: 1%!important;
+    background-color: transparent!important;
+    transition: 0.5s ease-in ease-out !important;
+    border-top: 2px solid #E5E5E5 !important;
+}
+
 .form input:hover{
     border-bottom: 2px solid black;
 }
 .form input:focus{
     border-bottom: 2px solid black;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 
 .form label{
     position: absolute;
     cursor: text;
-    padding: 7px 15px;
+    padding: 1% 2%;
     font-size: 15px;
     color: #444444;
     transition: top 0.5s ease-in,
@@ -484,9 +496,15 @@ div .about-us-text{
 }
 
 .form_input:focus ~ .form_label{
-    top: 90px;
-    left: 3px;
     font-size: 18px;
-    margin-top: 10px;
+    margin-top: -3.8%;
+    left: 1.9%;
     color: #000;
+}
+
+.feild{
+    padding-bottom: 8%;
+}
+.feild-last{
+    padding-bottom: 5.4%;
 }
