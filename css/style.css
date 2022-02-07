@@ -444,67 +444,69 @@ div .about-us-text{
     margin-right: -15px;
 }
 
+
+/*==form styling==*/
 .cont2{
     background-color: #E5E5E5;
-    padding: 7%;
-}
+} 
+
+
 .cont2-heading p{
     font-family: 'Montserrat Bold', arial;
     font-size: 22px;
     color: #000000;
     font-weight: 900;
-    margin-bottom: 3%;
+    padding-top: 90px;
+    margin-bottom: 20px;
 }
 
-.form{
-    padding-bottom: 2%;
-    padding-top: 2%;
-}
-.form input{
-    position: absolute;
-    padding: 1%;
-    background: none;
-    transition: 0.5s ease-in ease-out;
-    border-top: 2px solid #E5E5E5 !important;
-}
-
-textarea{
-    position: absolute;
-    padding: 1%!important;
-    background-color: transparent!important;
-    transition: 0.5s ease-in ease-out !important;
-    border-top: 2px solid #E5E5E5 !important;
+.cont2 button{
+    position: relative;
+    background-color: #381DDB;
+    color: white;
+    margin-left: 22%;
+    margin-top: 20px;
+    margin-bottom:35px ;
+    align-items: center !important;
+    align-self: center!important;
+    align-content: center;
+    width: 60%;
 }
 
-.form input:hover{
-    border-bottom: 2px solid black;
-}
-.form input:focus{
-    border-bottom: 2px solid black;
-    margin-top: 12px;
+.form button:hover{
+    color: white;
+    background-color: black;
 }
 
-.form label{
-    position: absolute;
-    cursor: text;
-    padding: 1% 2%;
-    font-size: 15px;
-    color: #444444;
-    transition: top 0.5s ease-in,
-    left 0.5s ease-in,
-    font-size 0.5s ease-in;
+
+input,
+label, .form_input {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    font-family: Raleway;
 }
 
-.form_input:focus ~ .form_label{
-    font-size: 18px;
-    margin-top: -3.8%;
-    left: 1.9%;
-    color: #000;
+input, .form_input{
+    font-size: 1.25em;
+    padding: 5px 5px 5px 5px;
+    z-index: 10;
+    background: transparent;
+    margin-bottom: 0.5em;
+    border: none;
+    border-bottom: 2px solid #3333;
 }
 
-.feild{
-    padding-bottom: 8%;
+label {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 0 5px 0;
+    transition: all 0.5s ease-in-out; 
+    z-index: 1;
+    top: 36px;
 }
-.feild-last{
-    padding-bottom: 5.4%;
-}
+
+.filled label {
+	top: 10px;
+	font-size: 1.1em;
+} 

@@ -284,22 +284,25 @@
                     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 cont2">
                         <div class="cont2-heading"><p>Fill In your details</p></div>
                         <div class="form form-group-row">
-                            <div class="feild col-xs-11 col-sm-11 col-md-11 col-lg-11">
-                                <input type="text" class="form-control form_input" id="name" autocomplete="off" placeholder=" ">
-                                <label for="firsName" class="form_label" id="namelabel">Name</label><br>
-                            </div>
-                            <div class="feild col-xs-11 col-sm-11 col-md-11 col-lg-11">
-                                <input type="text" class="form-control form_input" id="email" autocomplete="off" placeholder=" ">
-                                <label for="email" class="form_label" id="emaillabel">Email</label><br>
-                            </div>
-                            <div class="feild col-xs-11 col-sm-11 col-md-11 col-lg-11">
-                                <input type="number" class="form-control form_input" id="number" autocomplete="off" placeholder=" ">
-                                <label for="number" class="form_label" id="numberlabel">Contact Number</label><br>
-                            </div>
-                            <div class="feild-last col-xs-11 col-sm-11 col-md-11 col-lg-11">
-                                <textarea class="form-control form_input" id="message" name="message" rows="4"></textarea>
-                                <label for="message" class="form_label" id="messagelabel">Message</label><br>
-                            </div>
+                            <form>
+                                <div class="field col-xs-11 col-sm-11 col-md-11 col-lg-11">
+                                    <label for="name">Name </label>
+                                    <input type="text" name="name" id="name" required>
+                                </div>
+                                <div class="field col-xs-11 col-sm-11 col-md-11 col-lg-11">
+                                    <label for="email">Email </label>
+                                    <input type="email" name="email" id="email" required>
+                                </div>
+                                <div class="field col-xs-11 col-sm-11 col-md-11 col-lg-11">
+                                    <label for="number">Number </label>
+                                    <input type="number" name="number" id="number" required>
+                                </div>
+                                <div class="field col-xs-11 col-sm-11 col-md-11 col-lg-11">
+                                    <label for="message">Message </label>
+                                    <textarea class="form_input" id="message" name="message" rows="2"></textarea>
+                                </div>
+                                <button class="btn">Submit</button>
+                            </form>
                         </div>
                     </div>
                 </div>
