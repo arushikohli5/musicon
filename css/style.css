@@ -5,6 +5,7 @@
 
 body{
     overflow-x: hidden;
+    width: 100%;
 }
 /*================================
            navbar styles
@@ -47,7 +48,7 @@ body{
 
 .navbar-brand{
     position: absolute;
-    width: 100%;
+    width: 80%;
     left: 5%;
     top: 8%;
     padding: 0px;
@@ -290,6 +291,7 @@ body{
     cursor: pointer;
 }
 
+
 .secon{
     background-color: blue !important;
     color: white;
@@ -322,11 +324,33 @@ body{
 .about-us .row{
     vertical-align: text-bottom;
 }
-.about-us-image img{
-    height: auto;
-    max-width: 65%;
-    float: right;
+
+@media (min-width: 768px){
+    .about-us-image img{
+        height: auto;
+        max-width: 65%;
+        float: right;
+    }
 }
+
+@media (max-width: 768px){
+    .about-us-image img{
+        height: auto;
+        max-width: 65%;
+        margin-left: 35px;
+        margin-bottom: 15px;
+    }
+} 
+
+@media (max-width: 768px){
+    div .about-us-text{
+        margin-left: 25px;
+    }
+    div .aboutus-button{
+        margin-left: 25px;
+    }
+}
+
 
 div .about-us-text{
     margin-top: 30px;
@@ -366,11 +390,23 @@ div .about-us-text{
     margin-top: 10px;
 }
 
-.organisers-text{
-    margin-top: 75px;
-    font-family: Montserrat;
-    float: right;
-    margin-left: 95px;
+
+@media (min-width: 768px){
+    .organisers-text{
+        margin-top: 75px;
+        font-family: Montserrat;
+        float: right;
+        margin-left: 95px;
+    }
+}
+
+@media (max-width: 768px){
+    .organisers-text{
+        margin-top: 75px;
+        font-family: Montserrat;
+        float: right;
+        margin-left: 25px;
+    }
 }
 
 .organisers-image img{
@@ -404,11 +440,15 @@ div .about-us-text{
 ====================*/
 .sponsers{
     margin-top: 50px;
+    display: none;
 }
 .sponsers .section-heading{
     text-align: center;
 }
 
+.schedule{
+    display: none;
+}
 
 /*================
     contact us
@@ -417,6 +457,7 @@ div .about-us-text{
     background-color: #381DDB;
     color: white;
     font-family: Montserrat;
+    margin-top: 22px;
 }
 
 .text-heading{
@@ -466,7 +507,7 @@ div .about-us-text{
     color: white;
     margin-left: 22%;
     margin-top: 20px;
-    margin-bottom:35px ;
+    margin-bottom:33.5px ;
     align-items: center !important;
     align-self: center!important;
     align-content: center;
@@ -510,3 +551,56 @@ label {
 	top: 10px;
 	font-size: 1.1em;
 } 
+
+
+/*===============
+    footer
+================*/
+
+.footer{
+    background-color: #000000;
+}
+
+.btn-social-icon{
+    margin-top: 25px;
+    padding: 5px;
+    color: white;
+}
+
+.btn-social-icon i:hover{
+    color: #FC5252;
+}
+
+.btn-social-icon:hover{
+    color: #FC5252;
+}
+.footer-txt ul{
+    position: relative;
+    padding-top: 5px;
+    margin-top: 67px;
+}
+
+.footer-txt ul>li{
+    position: relative;
+    display: inline;
+    align-content: center;
+    padding: 12px;
+    padding-top: 10px;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.footer-txt ul li a{
+    font-family: Montserrat;
+    color:  #D2D2D2 !important;
+}
+
+
+.footer-mark{
+    font-size: 13px;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+    padding-top: 4px;
+    margin-bottom: 15px;
+}
