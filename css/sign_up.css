@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+body{
+    overflow: hidden;
+    min-height: 100%;
+    width: 100%;
+    align-items: center;
+    background-image: url(../imges/signUp_bg.png);
+    background-size: cover;
+    background-position: center;
+    vertical-align: middle;
+}
+
+
+.sign-up-box{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    vertical-align: middle;
+    align-items: center;
+}
+
+@media (min-width: 768px){
+    .box{
+        height: 550px;
+        width: 450px;
+    }    
+}
+
+@media (max-width: 768px){
+    .box{
+        height: 550px;
+        width: 350px;
+    }    
+}
+
+@media (max-width: 370px){
+    .box{
+        height: 550px;
+        width: 400px;
+    }    
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    border-radius: 35px;
+    background-color: white;
+}
+
+.box-text{
+    font-family: 'Montserrat Bold', arial;
+    font-size: 40px;
+    color: black;
+    font-weight: 700;
+    position: relative;
+    margin-top: 105px;
+}
+
+.or{
+    font-family: Raleway;
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: rgba(0, 0, 0, 0.39);
+}
+
+.box .btn{
+    background-color: rgba(56, 29, 219, 1);
+    color: white;
+    font-family: Montserrat;
+    font-size: 20px;
+    width: 80%;
+    align-items: center;
+    align-content: center;
+    padding: 8px;
+
+}
+
+.box  .btn:hover{
+    color: white;
+    background-color: black;
+}
+
+.btn_org{ 
+    position: relative;
+    margin-top: 40px;
+}
+
+.btn_band{
+    position: relative;
+    margin-top: 30px;
+}
+
+.sign_in1, .sign_in2{
+    padding-left: 0px !important;
+    padding-right: 5px !important;
+}
+
+@media (min-width: 768px){
+    .sign_in1{
+        margin-top: 15px;
+        text-align: right;
+    }
+    .sign_in2{
+        margin-top: 15px;
+        text-align: left;
+    }
+}
+
+
+@media (max-width: 768px){
+    .sign_in1{
+        margin-top: 18px;
+    }
+}
+
+
+.sign_in1{
+    color: rgba(0, 0, 0, 0.4);
+}
+.sign_in2{
+    color: rgba(56, 29, 219, 0.6);
+}
